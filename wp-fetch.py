@@ -34,6 +34,6 @@ def editconfig(dir):
         config.write(''.join(lines))
 
 
-def test(arg):
+def main():
     clonefiles('hansvanderwoerd.eu', 'pfed180567', 'lw0OO5f323', 'test')
     editconfig('test')
